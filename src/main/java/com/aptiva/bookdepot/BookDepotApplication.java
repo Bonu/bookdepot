@@ -10,4 +10,5 @@ public class BookDepotApplication {
         SpringApplication springBootApplication = new SpringApplication(BookDepotApplication.class);
         springBootApplication.run(args);
     }
+
 }
