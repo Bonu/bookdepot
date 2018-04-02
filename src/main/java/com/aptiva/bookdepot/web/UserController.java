@@ -5,13 +5,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/app")
-public class ApplicationController {
+@RequestMapping("/user")
+public class UserController {
 
-    @RequestMapping(method = {RequestMethod.GET},value={"/version"})
-    public String getVersion() {
-        return "1.0";
-    }
+//    @RequestMapping(method = {RequestMethod.GET},value={"/get"})
+//    public String getUsers(){
+//
+//    }
+
 
 }
-
